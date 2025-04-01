@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4F46E5',
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="font-sans bg-gray-50 text-gray-800">
+
+    <!-- Navigation Bar -->
+    <header class="bg-primary text-white shadow-md">
+        <div class="max-w-7xl mx-auto p-5">
+            <nav class="flex justify-between items-center">
+                <a href="#home" class="text-3xl font-semibold">MyPortfolio</a>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#resume" class="hover:text-gray-300">Resume</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="h-screen bg-primary text-white flex justify-center items-center">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold mb-4">Hello, I'm a Full Stack Developer</h1>
+            <p class="text-xl mb-8">Passionate about coding and solving real-world problems.</p>
+            <a href="#contact" class="bg-white text-primary py-2 px-6 rounded-lg text-lg hover:bg-gray-200">Get in
+                Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-semibold text-primary mb-8">About Me</h2>
+            <p class="text-lg leading-relaxed">
+                Hi, I'm Vaishnavi Nalawade, a recent graduate with a degree in Electronics and telecommunication, passionate about software development,
+                problem-solving, and building impactful applications. I am eager to work on real-world challenges and
+                learn from experienced developers.I love solving problems with clean,efficient code and am always passionate to learn and grow as developer.
+                
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-semibold text-primary mb-8">My Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">C</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">C++</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Core Java</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">HTML/CSS</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Bootstrap</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">MySQL</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Basic JavaScript</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-semibold text-primary mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Project 1</h3>
+                    <p class="text-gray-600">Mess Management and Prediction System.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Project 2</h3>
+                    <p class="text-gray-600">Wireless Blood Glucose Measurement using Breath.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Project 3</h3>
+                    <p class="text-gray-600">A portfolio website using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Resume Section -->
+    <section id="resume" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-semibold text-primary mb-8">Resume</h2>
+            <a href="resume/VAISHNAVI NALAWADE - Resume (1).pdf" target="_blank" class="bg-primary text-white py-2 px-6 rounded-lg text-lg hover:bg-indigo-600">Download My Resume</a>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-semibold text-primary mb-8">Contact</h2>
+            <p class="text-lg mb-6">I'm excited to connect and explore opportunities where I can contribute my skills and grow professionally.feel free to reach out!</p>
+            <a href="mailto:example@example.com"
+                class="bg-primary text-white py-2 px-6 rounded-lg text-lg hover:bg-indigo-600">vaishnavinalawade567@gmail.com</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-6">
+        <div class="text-center">
+            <p>&copy; 2025 Vaishnavi Nalawade. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
